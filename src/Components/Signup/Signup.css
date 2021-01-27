@@ -53,7 +53,7 @@
 
   .signup-container {
     background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 100vh;
     margin-top: 0;
   }
@@ -68,7 +68,7 @@
 
   .signup-container {
     background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 100vh;
   }
 }
