@@ -1,0 +1,13 @@
+button {
+  cursor: pointer;
+}
+
+body {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+button:hover {
+  transform: scale(1.1, 1.1);
+}

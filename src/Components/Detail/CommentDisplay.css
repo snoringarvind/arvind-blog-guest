@@ -1,0 +1,36 @@
+.comment-card {
+  /* border: 1px solid; */
+  /* padding: 20  px; */
+  background-color: rgb(238, 238, 238);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 10px;
+  /* box-shadow: 1px 1px 5px black; */
+  position: relative;
+}
+
+.comment-card .user {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.comment-card .comment {
+  font-size: 1.1rem;
+  /* text-indent: 25px; */
+  color: black;
+}
+
+.comment-card .delete-comment-btn {
+  position: absolute;
+  top: 13%;
+  right: 2%;
+  cursor: pointer;
+}
+
+.comment-card .delete-comment-btn ::-moz-focus-inner {
+  display: block;
+  background-color: tomato;
+  transform: scale(3, 3);
+}

@@ -1,0 +1,74 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid; */
+  /* margin-top: 20%;  */
+}
+
+.signup-container .Signup {
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  /* border: 1px solid; */
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px lightgray;
+  flex-basis: 70%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.signup-container #fname,
+.signup-container #lname,
+.signup-container #email,
+.signup-container #username,
+.signup-container #password,
+.signup-container #confirmPassword {
+  font-size: 1.1rem;
+  width: 100%;
+  padding: 10px;
+}
+
+.signup-container .form-group label {
+  font-size: 1.1rem;
+  font-weight: 450;
+}
+
+.signup-container .signup-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+  padding: 10px 25px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.signup-container .form-group {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-device-width: 1000px) {
+  .signup-container .Signup {
+    flex-basis: 100%;
+  }
+
+  .signup-container {
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    border: 1px solid red;
+    height: 100vh;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .signup-container .Signup {
+    flex-basis: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .signup-container {
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    border: 1px solid red;
+    height: 100vh;
+  }
+}
