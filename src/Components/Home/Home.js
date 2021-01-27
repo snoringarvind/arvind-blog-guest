@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useContext } from "react";
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route,
   Redirect,
