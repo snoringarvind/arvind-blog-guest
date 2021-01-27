@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/arvind-blog-guest/static/css/main.04cdcacb.chunk.css",
-    "main.js": "/arvind-blog-guest/static/js/main.657fca5d.chunk.js",
-    "main.js.map": "/arvind-blog-guest/static/js/main.657fca5d.chunk.js.map",
+    "main.js": "/arvind-blog-guest/static/js/main.062c43c6.chunk.js",
+    "main.js.map": "/arvind-blog-guest/static/js/main.062c43c6.chunk.js.map",
     "runtime-main.js": "/arvind-blog-guest/static/js/runtime-main.91176d37.js",
     "runtime-main.js.map": "/arvind-blog-guest/static/js/runtime-main.91176d37.js.map",
     "static/js/2.06f811a7.chunk.js": "/arvind-blog-guest/static/js/2.06f811a7.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.91176d37.js",
     "static/js/2.06f811a7.chunk.js",
     "static/css/main.04cdcacb.chunk.css",
-    "static/js/main.657fca5d.chunk.js"
+    "static/js/main.062c43c6.chunk.js"
   ]
 }
