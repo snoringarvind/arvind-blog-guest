@@ -126,7 +126,7 @@ const Signup = () => {
             <div className="form-group">
               <label htmlFor="password">Password:</label>
               <input
-                type="text"
+                type="password"
                 id="password"
                 placeholder="Enter Password"
                 name="password"
@@ -136,7 +136,7 @@ const Signup = () => {
             <div className="form-group">
               <label htmlFor="confirmPassword">Confirm Password:</label>
               <input
-                type="text"
+                type="password"
                 id="confirmPassword"
                 placeholder="Enter above password again"
                 name="confirmPassword"
