@@ -32,6 +32,7 @@ const Signup = () => {
 
     if (state.password !== state.confirmPassword) {
       setErrors({ msg: "Passwords don't match :(" });
+      setLoadingBtn(false);
       return;
     }
 
@@ -118,7 +119,7 @@ const Signup = () => {
               <input
                 type="text"
                 id="username"
-                placeholder="Enter a unique username"
+                placeholder="Enter a username"
                 name="username"
                 onChange={changeHandler}
               />
